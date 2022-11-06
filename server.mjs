@@ -4,7 +4,7 @@ const port = process.env.port || 3000;
 
 app.get('/L', (req, res) => {
   console.log(`${req.ip} is asking for L`);
-  res.send('Here is your L')
+  res.send('Here is your Drink')
 })
 
 app.listen(port, () => {
